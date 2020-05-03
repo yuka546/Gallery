@@ -55,13 +55,11 @@ body {
 @media(max-width: 670px){
   .title h1{
     font-size: 20px;
-    display: block;
+    padding: 10px;
   }
 
   .title{
-    text-align: center;
-    width: 100%;
+    padding-top: 50px;
   }
-
-  
 }
+
