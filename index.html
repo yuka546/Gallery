@@ -65,9 +65,18 @@
   <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 
 
-  <script>
+    <script>
     var swiper = new Swiper('.swiper-container', {
       slidesPerView: 3,
+      breakpoints:{
+        200:{
+          slidesPerView: 1,
+        },
+        1000:{
+          slidesPerView: 3,
+        }
+
+      },
       spaceBetween: 30,
       pagination: {
         el: '.swiper-pagination',
